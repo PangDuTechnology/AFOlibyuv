@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
   
   s.preserve_paths = "AFOlibyuv/AFOlibyuv/libyuv/include/*.h"
-  s.vendored_library = "AFOlibyuv/libyuv/libyuv.a"
+  s.vendored_libraries = ["AFOlibyuv/libyuv/libyuv.a"]
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
