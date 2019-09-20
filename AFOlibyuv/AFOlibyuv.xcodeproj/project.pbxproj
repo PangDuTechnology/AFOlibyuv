@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		243E23432334812E00F9F75C /* AFOlibyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E23412334812E00F9F75C /* AFOlibyuv.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		243E2367233481E100F9F75C /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E234F233481E100F9F75C /* libyuv.h */; };
-		243E2368233481E100F9F75C /* scale_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2351233481E100F9F75C /* scale_row.h */; };
-		243E2369233481E100F9F75C /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2352233481E100F9F75C /* scale.h */; };
-		243E236A233481E100F9F75C /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2353233481E100F9F75C /* version.h */; };
-		243E236B233481E100F9F75C /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2354233481E100F9F75C /* cpu_id.h */; };
-		243E236C233481E100F9F75C /* video_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2355233481E100F9F75C /* video_common.h */; };
-		243E236D233481E100F9F75C /* compare_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2356233481E100F9F75C /* compare_row.h */; };
-		243E236E233481E100F9F75C /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2357233481E100F9F75C /* mjpeg_decoder.h */; };
-		243E236F233481E100F9F75C /* rotate_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2358233481E100F9F75C /* rotate_row.h */; };
-		243E2370233481E100F9F75C /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2359233481E100F9F75C /* planar_functions.h */; };
-		243E2371233481E100F9F75C /* scale_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235A233481E100F9F75C /* scale_argb.h */; };
-		243E2372233481E100F9F75C /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235B233481E100F9F75C /* compare.h */; };
-		243E2373233481E100F9F75C /* convert_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235C233481E100F9F75C /* convert_argb.h */; };
-		243E2374233481E100F9F75C /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235D233481E100F9F75C /* rotate.h */; };
-		243E2375233481E100F9F75C /* convert_from_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235E233481E100F9F75C /* convert_from_argb.h */; };
-		243E2376233481E100F9F75C /* basic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235F233481E100F9F75C /* basic_types.h */; };
-		243E2377233481E100F9F75C /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2360233481E100F9F75C /* convert_from.h */; };
-		243E2378233481E100F9F75C /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2361233481E100F9F75C /* convert.h */; };
-		243E2379233481E100F9F75C /* rotate_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2362233481E100F9F75C /* rotate_argb.h */; };
-		243E237A233481E100F9F75C /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2363233481E100F9F75C /* macros_msa.h */; };
-		243E237B233481E100F9F75C /* row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2364233481E100F9F75C /* row.h */; };
+		243E2367233481E100F9F75C /* libyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E234F233481E100F9F75C /* libyuv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2368233481E100F9F75C /* scale_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2351233481E100F9F75C /* scale_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2369233481E100F9F75C /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2352233481E100F9F75C /* scale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236A233481E100F9F75C /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2353233481E100F9F75C /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236B233481E100F9F75C /* cpu_id.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2354233481E100F9F75C /* cpu_id.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236C233481E100F9F75C /* video_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2355233481E100F9F75C /* video_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236D233481E100F9F75C /* compare_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2356233481E100F9F75C /* compare_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236E233481E100F9F75C /* mjpeg_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2357233481E100F9F75C /* mjpeg_decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E236F233481E100F9F75C /* rotate_row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2358233481E100F9F75C /* rotate_row.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2370233481E100F9F75C /* planar_functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2359233481E100F9F75C /* planar_functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2371233481E100F9F75C /* scale_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235A233481E100F9F75C /* scale_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2372233481E100F9F75C /* compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235B233481E100F9F75C /* compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2373233481E100F9F75C /* convert_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235C233481E100F9F75C /* convert_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2374233481E100F9F75C /* rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235D233481E100F9F75C /* rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2375233481E100F9F75C /* convert_from_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235E233481E100F9F75C /* convert_from_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2376233481E100F9F75C /* basic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E235F233481E100F9F75C /* basic_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2377233481E100F9F75C /* convert_from.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2360233481E100F9F75C /* convert_from.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2378233481E100F9F75C /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2361233481E100F9F75C /* convert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E2379233481E100F9F75C /* rotate_argb.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2362233481E100F9F75C /* rotate_argb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E237A233481E100F9F75C /* macros_msa.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2363233481E100F9F75C /* macros_msa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243E237B233481E100F9F75C /* row.h in Headers */ = {isa = PBXBuildFile; fileRef = 243E2364233481E100F9F75C /* row.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		243E237C233481E100F9F75C /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 243E2366233481E100F9F75C /* libyuv.a */; };
 		243E237F233481F400F9F75C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 243E237E233481F400F9F75C /* libz.tbd */; };
 /* End PBXBuildFile section */

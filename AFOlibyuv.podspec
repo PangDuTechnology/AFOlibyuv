@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AFOFFMpegLib"
+  s.name         = "AFOlibyuv"
   s.version      = "0.0.1"
   s.summary      = "decoding."
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = 'Use soft decode to decode video.'
 
-  s.homepage     = "https://github.com/PangDuTechnology/AFOFFMpegLib.git"
+  s.homepage     = "https://github.com/PangDuTechnology/AFOlibyuv.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOlibyuv/libyuv/include/**/*.h"
+  s.source_files  = "AFOlibyuv/libyuv/include/**"
   #s.exclude_files = "AFOFFMpegLib/*.{h,m}"
 
   #s.public_header_files = "AFOlibyuv/**/*.h"
