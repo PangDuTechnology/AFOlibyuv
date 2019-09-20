@@ -101,9 +101,9 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  
+  #s.header_mappings_dir = "/AFOlibyuv/libyuv/include/libyuv"
   s.preserve_paths = "AFOlibyuv/AFOlibyuv/libyuv/include/*.h"
-  s.vendored_libraries = ["AFOlibyuv/libyuv/libyuv.a"]
+  s.vendored_library = 'AFOlibyuv/AFOlibyuv/libyuv/libyuv.a'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -127,6 +127,6 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOlibyuv/AFOlibyuv/libyuv/include/**/*.h" ,
-                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOlibyuv/AFOlibyuv/libyuv/include/lib/**'"
+                  "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOlibyuv/AFOlibyuv/libyuv/lib/**'"
   }
 end
