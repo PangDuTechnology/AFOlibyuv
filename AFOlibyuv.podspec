@@ -86,7 +86,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "AFOlibyuv/AFOlibyuv/libyuv/include/**"
-  #s.exclude_files = "AFOFFMpegLib/*.{h,m}"
 
   #s.public_header_files = "AFOlibyuv/**/*.h"
 
@@ -101,9 +100,11 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
+
   #s.header_mappings_dir = "/AFOlibyuv/libyuv/include/libyuv"
+
   s.preserve_paths = "AFOlibyuv/AFOlibyuv/libyuv/include/*.h"
-  s.vendored_library = 'AFOlibyuv/AFOlibyuv/libyuv/libyuv.a'
+  s.vendored_libraries = 'AFOlibyuv/AFOlibyuv/libyuv/lib/libyuv.a'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
