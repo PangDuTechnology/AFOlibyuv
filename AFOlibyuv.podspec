@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOlibyuv/libyuv/include/**"
+  s.source_files  = "AFOlibyuv/AFOlibyuv/libyuv/include/**"
   #s.exclude_files = "AFOFFMpegLib/*.{h,m}"
 
   #s.public_header_files = "AFOlibyuv/**/*.h"
@@ -102,8 +102,8 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
   
-  s.preserve_paths = "AFOlibyuv/libyuv/**/*.h"
-  s.vendored_libraries = "AFOlibyuv//libyuv/libyuv.a"
+  s.preserve_paths = "AFOlibyuv/AFOlibyuv/libyuv/include/*.h"
+  s.vendored_library = "AFOlibyuv/libyuv/libyuv.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
