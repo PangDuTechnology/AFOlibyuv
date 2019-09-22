@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = "AFOlibyuv/AFOlibyuv/libyuv/include/*.h"
 
-  s.vendored_libraries = "AFOlibyuv/AFOlibyuv/libyuv/lib/libyuv.a"
+  s.vendored_libraries = "libyuv.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
