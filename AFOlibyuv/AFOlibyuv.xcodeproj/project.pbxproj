@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		72CD51152337D290005E5A98 /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CD51142337D290005E5A98 /* libyuv.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		243E233E2334812E00F9F75C /* AFOlibyuv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOlibyuv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243E23412334812E00F9F75C /* AFOlibyuv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOlibyuv.h; sourceTree = "<group>"; };
@@ -31,7 +35,7 @@
 		243E2363233481E100F9F75C /* macros_msa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros_msa.h; sourceTree = "<group>"; };
 		243E2364233481E100F9F75C /* row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = row.h; sourceTree = "<group>"; };
 		243E237E233481F400F9F75C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		72B5AAA72337C1D000FBBDC9 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
+		72CD51142337D290005E5A98 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CD51152337D290005E5A98 /* libyuv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +79,8 @@
 		243E234D233481E100F9F75C /* libyuv */ = {
 			isa = PBXGroup;
 			children = (
+				72CD51132337D290005E5A98 /* lib */,
 				243E234E233481E100F9F75C /* include */,
-				72B5AAA62337C1D000FBBDC9 /* lib */,
 			);
 			path = libyuv;
 			sourceTree = "<group>";
@@ -124,10 +129,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		72B5AAA62337C1D000FBBDC9 /* lib */ = {
+		72CD51132337D290005E5A98 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				72B5AAA72337C1D000FBBDC9 /* libyuv.a */,
+				72CD51142337D290005E5A98 /* libyuv.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -342,7 +347,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AFOlibyuv/libyuv/lib",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Objc",
@@ -374,7 +382,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AFOlibyuv/libyuv/lib",
+				);
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-Objc",
