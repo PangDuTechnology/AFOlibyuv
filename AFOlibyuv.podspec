@@ -128,6 +128,8 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
+   s.static_framework = true
+
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/AFOlibyuv/AFOlibyuv/libyuv/include/**/*.h" ,
                   "LIBRARY_SEARCH_PATHS": "'$(PODS_ROOT)/AFOlibyuv/AFOlibyuv/libyuv/lib/**'"
   }
