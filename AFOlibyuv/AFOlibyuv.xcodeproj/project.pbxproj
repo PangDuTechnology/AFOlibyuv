@@ -9,7 +9,6 @@
 /* Begin PBXFileReference section */
 		243E233E2334812E00F9F75C /* AFOlibyuv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOlibyuv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243E23412334812E00F9F75C /* AFOlibyuv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOlibyuv.h; sourceTree = "<group>"; };
-		243E23422334812E00F9F75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243E234F233481E100F9F75C /* libyuv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libyuv.h; sourceTree = "<group>"; };
 		243E2351233481E100F9F75C /* scale_row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_row.h; sourceTree = "<group>"; };
 		243E2352233481E100F9F75C /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
@@ -31,8 +30,8 @@
 		243E2362233481E100F9F75C /* rotate_argb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rotate_argb.h; sourceTree = "<group>"; };
 		243E2363233481E100F9F75C /* macros_msa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros_msa.h; sourceTree = "<group>"; };
 		243E2364233481E100F9F75C /* row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = row.h; sourceTree = "<group>"; };
-		243E2366233481E100F9F75C /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
 		243E237E233481F400F9F75C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		72B5AAA72337C1D000FBBDC9 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +67,6 @@
 			children = (
 				243E23412334812E00F9F75C /* AFOlibyuv.h */,
 				243E234D233481E100F9F75C /* libyuv */,
-				243E23422334812E00F9F75C /* Info.plist */,
 			);
 			path = AFOlibyuv;
 			sourceTree = "<group>";
@@ -77,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				243E234E233481E100F9F75C /* include */,
-				243E2365233481E100F9F75C /* lib */,
+				72B5AAA62337C1D000FBBDC9 /* lib */,
 			);
 			path = libyuv;
 			sourceTree = "<group>";
@@ -118,20 +116,20 @@
 			path = libyuv;
 			sourceTree = "<group>";
 		};
-		243E2365233481E100F9F75C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				243E2366233481E100F9F75C /* libyuv.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		243E237D233481F400F9F75C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				243E237E233481F400F9F75C /* libz.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B5AAA62337C1D000FBBDC9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				72B5AAA72337C1D000FBBDC9 /* libyuv.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +172,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 243E23342334812E00F9F75C;
 			productRefGroup = 243E233F2334812E00F9F75C /* Products */;
@@ -335,7 +334,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AFOlibyuv/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,7 +369,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AFOlibyuv/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
