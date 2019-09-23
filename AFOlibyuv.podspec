@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.description   = "libyuv is an open source project that includes YUV scaling and conversion functionality."
 
 
-  s.header_mappings_dir = "AFOlibyuv/include/"
+  s.header_mappings_dir = "AFOlibyuv/include/libyuv"
   s.source_files = 'include/*.h', 'include/libyuv/*.h'
   s.public_header_files = 'include/*.h','include/libyuv/*.h'
   s.vendored_libraries  = 'lib/*'
