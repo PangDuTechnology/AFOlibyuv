@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'libyuv/include/*.h', 'libyuv/include/libyuv/*.h'
 
-  s.vendored_libraries  = 'libyuv/lib/**'
+  s.vendored_libraries  = 'libyuv/lib/libyuv.a'
 
   s.requires_arc        = false
 
