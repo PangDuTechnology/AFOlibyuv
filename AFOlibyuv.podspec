@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AFOlibyuv"
-  s.version       = "0.0.4"
+  s.version       = "0.0.5"
   s.license       = 'MIT'
   s.summary       = "libyuv  library for iOS"
   s.homepage      = "https://github.com/PangDuTechnology/AFOlibyuv.git"
@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = 'libyuv/lib/*'
   s.header_mappings_dir = "libyuv/include"
   s.requires_arc        = false
-
 end
