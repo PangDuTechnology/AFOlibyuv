@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary       = "libyuv  library for iOS"
   s.homepage      = "https://github.com/PangDuTechnology/AFOlibyuv.git"
   s.author        = 'The LibYuv Project Authors'
-  s.source        = { :git => "https://github.com/PangDuTechnology/AFOlibyuv.git", :tag => s.version.to_s }
+  s.source        = { :git => "https://github.com/PangDuTechnology/AFOlibyuv", :tag => s.version.to_s }
   s.platform      = :ios, '8.0'
   s.description   = "libyuv is an open source project that includes YUV scaling and conversion functionality."
 
