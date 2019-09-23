@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AFOlibyuv"
-  s.version       = "0.0.5"
+  s.version       = "0.0.6"
   s.license       = 'MIT'
   s.summary       = "libyuv  library for iOS"
   s.homepage      = "https://github.com/PangDuTechnology/AFOlibyuv.git"
